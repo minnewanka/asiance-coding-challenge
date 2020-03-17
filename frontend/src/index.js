@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Parse from 'parse';
+
+Parse.initialize('ASIANCE-CC');
+Parse.serverURL = 'http://localhost:1337/parse';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
