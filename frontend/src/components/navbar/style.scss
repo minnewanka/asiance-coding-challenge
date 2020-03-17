@@ -1,0 +1,11 @@
+.navbar {
+  background-color: white;
+  margin-bottom: 1rem;
+  .navbar-menu {
+    display: flex;
+    justify-content: center;
+    .navbar-section {
+      margin: 1rem;
+    }
+  }
+}
