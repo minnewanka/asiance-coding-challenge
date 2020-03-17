@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400|Squada+One|Staatliches');
+body {
+  margin: 0;
+  font-family: 'Open Sans', cursive;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a.nostyle {
+  &:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+  }
+  &:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+  }
+}
